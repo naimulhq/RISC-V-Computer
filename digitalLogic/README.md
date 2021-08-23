@@ -16,6 +16,28 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 
 # Logic Gates and Truth Tables
 
+**AND Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**OR Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**Inverter Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**NAND Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**NOR Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**XOR Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+**XNOR Gate**  
+< Insert Schematic >  
+< Insert Truth Table >  
+
 # Latches and Flip Flops
 
 # Logic Blocks
