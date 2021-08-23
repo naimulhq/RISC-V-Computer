@@ -18,25 +18,64 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 
 **AND Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |  
+
 **OR Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
 **Inverter Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | Out |
+| --- | --- |
+| 0 | 1 |
+| 1 | 0 |
+
 **NAND Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
 **NOR Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 | 
+
 **XOR Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
 **XNOR Gate**  
 < Insert Schematic >  
-< Insert Truth Table >  
+| A | B | Out |
+| --- | --- | --- |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 | 
 
 # Latches and Flip Flops
 
