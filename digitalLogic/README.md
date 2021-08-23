@@ -17,7 +17,7 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 # Logic Gates and Truth Tables
 
 **AND Gate**  
-
+<img src=https://github.com/naimulhq/RISC-V-Computer/blob/main/images/500px-Logic-gate-and-us.svg.png>
 | A | B | Out |
 | --- | --- | --- |
 | 0 | 0 | 0 |
@@ -51,7 +51,7 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 | 1 | 1 | 0 |
 
 **NOR Gate**  
-< Insert Schematic >  
+<img src=https://github.com/naimulhq/RISC-V-Computer/blob/main/images/800px-Nor-gate-en.svg.png>  
 | A | B | Out |
 | --- | --- | --- |
 | 0 | 0 | 1 |
@@ -60,7 +60,7 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 | 1 | 1 | 0 | 
 
 **XOR Gate**  
-< Insert Schematic >  
+<img src=https://github.com/naimulhq/RISC-V-Computer/blob/main/images/500px-Xor-gate-en.svg_.png>   
 | A | B | Out |
 | --- | --- | --- |
 | 0 | 0 | 0 |
@@ -69,7 +69,7 @@ MOSFETs can be thought of as a switch. When applied a certain amount of voltage 
 | 1 | 1 | 0 |
 
 **XNOR Gate**  
-< Insert Schematic >  
+<img src=https://github.com/naimulhq/RISC-V-Computer/blob/main/images/500px-Xnor-gate-en.svg.png>   
 | A | B | Out |
 | --- | --- | --- |
 | 0 | 0 | 1 |
