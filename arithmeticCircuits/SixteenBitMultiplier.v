@@ -1,4 +1,4 @@
-module SixteenBitMultiplier(input [15:0] in1, (15{in2[0]});, output [31:0] product);
+module SixteenBitMultiplier(input [15:0] in1, in2, output [31:0] product);
     
 
     // 0 0 -> 0
@@ -6,26 +6,28 @@ module SixteenBitMultiplier(input [15:0] in1, (15{in2[0]});, output [31:0] produ
     // 1 0 -> 0
     // 1 1 -> 1
 
-    wire carry_outSBFA1, carry_outSBFA2;
+    wire carry_outSBFA1, carry_outSBFA2, carry_outSBFA3, carry_outSBFA4, carry_outSBFA5, carry_outSBFA6, carry_outSBFA7, carry_outSBFA8;
+    wire carry_outSBFA9, carry_outSBFA10, carry_outSBFA11, carry_outSBFA12, carry_outSBFA13, carry_outSBFA14, carry_outSBFA15;
     wire [15:0] sumSBFA1, sumSBFA2, sumSBFA3, sumSBFA4, sumSBFA5, sumSBFA6, sumSBFA7, sumSBFA8, sumSBFA9, sumSBFA10;
+    wire [15:0] sumSBFA11, sumSBFA12, sumSBFA13, sumSBFA14, sumSBFA15;
 
 
-    wire [15:0] B0 = in1[15:0] & (16{in2[0]});
-    wire [15:0] B1 = in1[15:0] & (16{in2[1]});
-    wire [15:0] B2 = in1[15:0] & (16{in2[2]});
-    wire [15:0] B3 = in1[15:0] & (16{in2[3]});
-    wire [15:0] B4 = in1[15:0] & (16{in2[4]});
-    wire [15:0] B5 = in1[15:0] & (16{in2[5]});
-    wire [15:0] B6 = in1[15:0] & (16{in2[6]});
-    wire [15:0] B7 = in1[15:0] & (16{in2[7]});
-    wire [15:0] B8 = in1[15:0] & (16{in2[8]});
-    wire [15:0] B9 = in1[15:0] & (16{in2[9]});
-    wire [15:0] B10 = in1[15:0] & (16{in2[10]});
-    wire [15:0] B11 = in1[15:0] & (16{in2[11]});
-    wire [15:0] B12 = in1[15:0] & (16{in2[12]});
-    wire [15:0] B13 = in1[15:0] & (16{in2[13]});
-    wire [15:0] B14 = in1[15:0] & (16{in2[14]});
-    wire [15:0] B15 = in1[15:0] & (16{in2[15]});
+    wire [15:0] B0 = in1[15:0] & {16{in2[0]}};
+    wire [15:0] B1 = in1[15:0] & {16{in2[1]}};
+    wire [15:0] B2 = in1[15:0] & {16{in2[2]}};
+    wire [15:0] B3 = in1[15:0] & {16{in2[3]}};
+    wire [15:0] B4 = in1[15:0] & {16{in2[4]}};
+    wire [15:0] B5 = in1[15:0] & {16{in2[5]}};
+    wire [15:0] B6 = in1[15:0] & {16{in2[6]}};
+    wire [15:0] B7 = in1[15:0] & {16{in2[7]}};
+    wire [15:0] B8 = in1[15:0] & {16{in2[8]}};
+    wire [15:0] B9 = in1[15:0] & {16{in2[9]}};
+    wire [15:0] B10 = in1[15:0] & {16{in2[10]}};
+    wire [15:0] B11 = in1[15:0] & {16{in2[11]}};
+    wire [15:0] B12 = in1[15:0] & {16{in2[12]}};
+    wire [15:0] B13 = in1[15:0] & {16{in2[13]}};
+    wire [15:0] B14 = in1[15:0] & {16{in2[14]}};
+    wire [15:0] B15 = in1[15:0] & {16{in2[15]}};
 
     assign product[0] = B0[0];
     
